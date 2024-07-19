@@ -1,0 +1,34 @@
+@font-face {
+  font-family: Dosis;
+  src: url(Components/fonts/Dosis-Regular.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: DosisMedium;
+  src: url(Components/fonts/Dosis-Medium.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: DosisSemiBold;
+  src: url(Components/fonts/Dosis-SemiBold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: DosisBold;
+  src: url(Components/fonts/Dosis-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: DosisLight;
+  src: url(Components/fonts/Dosis-Light.ttf);
+  font-weight: bold;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
