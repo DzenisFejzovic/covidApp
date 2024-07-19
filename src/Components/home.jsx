@@ -1,5 +1,4 @@
 import React from "react";
-
 import CovidMap from "./images/CovidMap.png";
 import "./home.css";
 function Home() {
