@@ -11,4 +11,21 @@
 .worldStats > p {
   font-family: DosisMedium;
   font-size: 3.5rem;
+  margin-top: 0;
+}
+
+.worldStatsHolder {
+  margin-top: -50px;
+  display: flex;
+  justify-content: center;
+}
+
+.statShowers {
+  margin: 30px;
+  width: 40vh;
+  height: 150px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid gray;
+  border-radius: 10px;
+  box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.244);
 }

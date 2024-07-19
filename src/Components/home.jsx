@@ -12,6 +12,13 @@ function Home() {
 
         <div className="worldStats">
           <p className="worldStatsText">World stats</p>
+
+          <div className="worldStatsHolder">
+            <div className="statShowers"></div>
+            <div className="statShowers"></div>
+            <div className="statShowers"></div>
+            <div className="statShowers"></div>
+          </div>
         </div>
       </div>
     </>
