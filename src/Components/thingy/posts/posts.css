@@ -1,0 +1,84 @@
+.postCenter {
+  display: flex;
+  justify-content: center;
+}
+
+.covidCard {
+  text-align: left;
+  transition: 1s;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 1rem;
+  border: 1px solid gray;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.087);
+}
+
+.covidCard:hover {
+  transition: 0.2s;
+  box-shadow: 5px 30px 10px rgba(0, 0, 0, 0.087);
+}
+
+.covidInfo {
+  margin-left: 2%;
+}
+
+.covidInfo > div > p {
+  font-family: Dosis;
+  font-size: 25px;
+}
+
+.flagHolder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+  width: 150px;
+  height: 150px;
+  margin-right: 2%;
+  border-radius: 50%;
+  overflow: hidden;
+  font-family: Dosis;
+}
+
+.flag {
+  width: 200px;
+  height: 150px;
+}
+
+.countryStatName {
+  font-family: DosisMedium;
+  font-size: 30px;
+  color: rgb(23, 71, 158);
+  text-decoration: underline;
+}
+
+.countryCases {
+  font-family: DosisMedium;
+  font-size: 30px;
+  color: rgb(255, 157, 0);
+  text-decoration: underline;
+}
+
+.countryDeaths {
+  font-family: DosisMedium;
+  font-size: 30px;
+  color: rgb(245, 15, 15);
+  text-decoration: underline;
+}
+
+.countryRecovered {
+  font-family: DosisMedium;
+  font-size: 30px;
+  color: rgb(28, 194, 94);
+  text-decoration: underline;
+}
+
+.countryPopulation {
+  font-family: DosisMedium;
+  font-size: 30px;
+  color: rgb(242, 100, 157);
+  text-decoration: underline;
+}

@@ -12,3 +12,61 @@
   font-family: DosisMedium;
   font-size: 3.5rem;
 }
+
+.worldStatsDivHolder {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.statShower {
+  transition: 1s;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40vh;
+  height: 150px;
+  border: solid 1px gray;
+  border-radius: 10px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.087);
+}
+
+.statShower:hover {
+  transition: 0.2s;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.287);
+}
+
+.statShowerText {
+  font-family: DosisMedium;
+  font-size: 2rem;
+}
+
+.recoveredText {
+  font-family: DosisMedium;
+  font-size: 2rem;
+  color: green;
+}
+
+.deathsText {
+  font-family: DosisMedium;
+  font-size: 2rem;
+  color: rgb(255, 0, 0);
+}
+
+.casesText {
+  font-family: DosisMedium;
+  font-size: 2rem;
+  color: rgb(0, 128, 255);
+}
+
+.countryStatsStatButton {
+  transition: 1s;
+  font-family: DosisMedium;
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+.countryStatsStatButton:hover {
+  transition: 0.2s;
+  color: red;
+}

@@ -1,11 +1,13 @@
 import React from "react";
-
+import Covidapi from "../thingy/covidapi";
 const CovidStats = () => {
-    return(
-        <>
-            <p>Covid stats</p>
-        </>
-    )
+  return (
+    <>
+      <div>
+        <Covidapi />
+      </div>
+    </>
+  );
 };
 
 export default CovidStats;

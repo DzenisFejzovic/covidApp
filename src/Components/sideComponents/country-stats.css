@@ -1,14 +1,14 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-.container{
-    height: 100vh;
-    width: 100%;
-    display: flex;
+.containerCountryStats {
+  height: 100vh;
+  width: 100%;
+  display: flex;
 }
-.menus{
-    width: 20%;
-    height: 10%;
-    background-color: gr;
+.menus {
+  width: 20%;
+  height: 10%;
+  background-color: gr;
 }
