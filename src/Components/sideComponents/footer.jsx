@@ -9,11 +9,13 @@ function Footer() {
     <>
       <div className="footer">
         <div className="icons">
-          <InstagramIcon />
-          <FacebookIcon />
-          <XIcon />
+          <div className="iconHolder">
+            <InstagramIcon />
+            <FacebookIcon />
+            <XIcon />
+          </div>
         </div>
-        <p>Copyright 2022. All Rights Reserved</p>
+        <p>© Covid 19 Corporation</p>
       </div>
     </>
   );
