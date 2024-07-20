@@ -2,13 +2,156 @@
   margin: 0;
   padding: 0;
 }
-.containerCountryStats {
+.countrystats-container {
+  margin-top: 100px;
   height: 100vh;
   width: 100%;
   display: flex;
+  background-image: url(https://northernvirginiamag.com/wp-content/uploads/2020/06/people-with-masks.jpg);
+  background-size: cover;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  align-items: center;
 }
 .menus {
-  width: 20%;
-  height: 10%;
-  background-color: gr;
+  display: flex;
+  width: 30%;
+  height: 8%;
+  background-color: white;
+  gap: 20px;
+  align-items: center;
+}
+.country-info {
+  width: 70%;
+  height: 25%;
+  display: flex;
+  margin-top: 25vh;
+  background-color: rgb(238, 238, 238);
+
+  flex-direction: column;
+  padding: 15px;
+}
+.country-info div {
+  height: 100%;
+  border-radius: 10px;
+}
+.country-name {
+  background-color: white;
+  font-family: DosisMedium;
+  font-weight: 700px;
+
+  font-size: 15px;
+  color: gray;
+  gap: 5px;
+}
+.flagCountryStats {
+  margin-left: 20px;
+}
+.country-statistics {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.country-statistics div {
+  height: 100%;
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700px;
+  text-align: center;
+  font-size: 15px;
+  color: gray;
+}
+.country-total-active {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700px;
+  text-align: center;
+  font-size: 15px;
+  color: gray;
+}
+
+.blue {
+  font-size: 20px;
+  color: blue;
+  font-family: DosisMedium;
+}
+.red {
+  font-size: 20px;
+  color: red;
+  font-family: DosisMedium;
+}
+.green {
+  font-size: 20px;
+  color: green;
+  font-family: DosisMedium;
+}
+.grey {
+  font-size: 20px;
+  color: rgb(29, 29, 29);
+  font-family: DosisMedium;
+}
+
+.countrystats-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.menus {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.list-of-countries {
+  flex: 1;
+  max-width: 300px;
+  min-width: 200px;
+}
+
+.calendar {
+  flex: 1;
+  max-width: 300px;
+  min-width: 200px;
+}
+
+.country-info {
+  margin-top: 150px;
+  text-align: center;
+}
+
+.country-name img {
+  width: 50px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.country-statistics {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.country-statistics div {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.country-total-active {
+  margin-top: 20px;
+}
+
+h3 {
+  font-family: DosisMedium;
 }

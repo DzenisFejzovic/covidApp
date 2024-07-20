@@ -34,51 +34,50 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid gray;
-  width: 150px;
-  height: 150px;
+  border: 3px solid rgba(128, 128, 128, 0.281);
+  border-radius: 5px;
   margin-right: 2%;
-  border-radius: 50%;
+  width: 250px;
+  height: 150px;
   overflow: hidden;
   font-family: Dosis;
 }
 
 .flag {
-  width: 200px;
-  height: 150px;
+  width: 250px;
 }
 
 .countryStatName {
   font-family: DosisMedium;
-  font-size: 30px;
+  font-size: 25px;
   color: rgb(23, 71, 158);
   text-decoration: underline;
 }
 
 .countryCases {
   font-family: DosisMedium;
-  font-size: 30px;
+  font-size: 25px;
   color: rgb(255, 157, 0);
   text-decoration: underline;
 }
 
 .countryDeaths {
   font-family: DosisMedium;
-  font-size: 30px;
+  font-size: 25px;
   color: rgb(245, 15, 15);
   text-decoration: underline;
 }
 
 .countryRecovered {
   font-family: DosisMedium;
-  font-size: 30px;
+  font-size: 25px;
   color: rgb(28, 194, 94);
   text-decoration: underline;
 }
 
 .countryPopulation {
   font-family: DosisMedium;
-  font-size: 30px;
+  font-size: 25px;
   color: rgb(242, 100, 157);
   text-decoration: underline;
 }
